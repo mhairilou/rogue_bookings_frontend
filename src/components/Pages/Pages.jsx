@@ -6,6 +6,7 @@ import Bookings from "./Bookings";
 import Users from "./Users";
 import Classes from "./Classes/Classes";
 import NavBar from "../NavBar/NavBar";
+import Businesses from "./Businesses";
 
 function Pages() {
   return (
@@ -17,6 +18,7 @@ function Pages() {
         <Route path="/bookings" element={<Bookings />} />
         <Route path="/users" element={<Users />} />
         <Route path="/classes" element={<Classes />} />
+        <Route path="/businesses" element={<Businesses />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
