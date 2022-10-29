@@ -7,7 +7,6 @@ function App() {
       <header>
         <h2>App</h2>
       </header>
-      <NavBar />
       <Pages />
     </div>
   );
